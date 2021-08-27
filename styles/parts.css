@@ -1,0 +1,204 @@
+/* 共通 */
+body {
+  font-family: 'Kiwi Maru', serif;
+}
+
+.br:before {
+  content: "\A";
+  white-space: pre;
+}
+
+@media screen and (min-width: 768px){
+  .br-pc:before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .br-sp:before {
+    content: "\A";
+    white-space: pre;
+  }
+}
+
+h2 {
+  background: linear-gradient(transparent 80%,rgba(255,231,62,.6) 50%);
+  display: inline-block;
+  font-weight: 400;
+}
+p {
+  margin-bottom: 0;
+  color: #4a4a4a;
+  font-weight: 300;
+}
+
+a {
+	text-decoration:none;
+}
+a:hover,button:hover {
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+  color: #fff!important;
+  transform: translateY(-3px);
+}
+
+.sub-title {
+  color: #5A5A5A;
+  font-weight: 700;
+}
+.keiko {
+  background: linear-gradient(transparent 70%,rgba(255,231,62,.6) 50%);
+}
+
+
+/* ボタン */
+.btn-main {
+  border-radius: 40px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 8px rgb(0 0 0 / 20%);
+  padding: 10px 30px;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* ボタン */
+section .btn-main {
+  width: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  section .btn-main {
+    width: 90%;
+  } 
+}
+
+
+/* 吹き出し */
+.balloon{
+  top: 20%;
+  padding: 10px 18px;
+  border-radius: 30px;
+  text-shadow: 1px 2px 4px #fff;
+  letter-spacing: 0.2em;
+  background-color: #ffd150;
+  color: #000;
+}
+.balloon::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-right: 20px solid #ffd150;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.balloon-left {
+  left: 26%;
+  transform: rotate(345deg);
+}
+.balloon-left::before {
+  right: 0px;
+  bottom: -1px;
+  transform: rotate(107deg);
+}
+
+.balloon-right {
+  right: 20%;
+  transform: rotate(15deg);
+}
+.balloon-right::before {
+  left: 2px;
+  bottom: -12px;
+  transform: rotate(296deg);
+}
+
+@media screen and (max-width: 992px) {
+  .balloon {
+    font-size: 1.0em!important;
+    top: 8%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .balloon {
+    top: 10%;
+    font-size: .8em!important;
+    padding: 5px 10px;
+  }
+  .balloon-left {
+    left: 5%;
+  }
+  .balloon-right {
+    right: 0%;
+  }
+}
+
+/* アニメーション */
+img.vert-move {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.vert-move-1 {
+  -webkit-animation: mover-1 2.1s infinite  alternate;
+  animation: mover-1 2.1s infinite  alternate;
+}
+
+@-webkit-keyframes mover-1 {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover-1 {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+.vert-move-2 {
+  -webkit-animation: mover-2 1.5s infinite  alternate;
+  animation: mover-2 1.5s infinite  alternate;
+}
+
+@-webkit-keyframes mover-2 {
+  0% { transform: translateY(15px); }
+  100% { transform: translateY(0); }
+}
+@keyframes mover-2 {
+  0% { transform: translateY(15px); }
+  100% { transform: translateY(0); }
+}
+
+/* infiniteslide */
+
+@media screen and (min-width: 768px) {
+  #js-infiniteslide img,.industry-slide img {
+    margin: 0 20px;
+    width: 25%;
+    border-radius: 17px;
+    box-shadow: 0 .5rem 1rem rgba(80, 62, 62, 0.15);
+  }
+}
+@media screen and (max-width: 767px) {
+  #js-infiniteslide img,.industry-slide img{
+    margin: 0 6px;
+    width: 45%;
+  }
+}
+#js-infiniteslide {
+  display: flex;
+  flex: nowrap;
+  align-items: center;
+}
+

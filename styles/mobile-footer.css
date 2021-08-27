@@ -1,0 +1,45 @@
+/*メニューをページ下部に固定*/
+#mobile-menu{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  font-size: 0;
+  opacity: 0.9;
+  z-index: 99;
+}
+
+/*メニューを横並びにする*/
+#mobile-menu ul{
+  display: flex;
+  list-style: none;
+  padding:0;
+  margin:0;
+  width:100%;
+}
+
+#mobile-menu li{
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 11px;
+  border-right: 1px solid #fff;
+}
+
+#mobile-menu li:last-child{
+  background: linear-gradient(to right, #FFB000, #FF6B8E);
+}
+
+/*ボタンを調整*/
+#mobile-menu li a{
+  color: #fff;
+  text-align: center;
+  display:block;
+  width: 100%;
+  padding:6px;
+}
+
+#mobile-menu li i {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 3px;
+}

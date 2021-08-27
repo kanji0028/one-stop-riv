@@ -1,0 +1,55 @@
+.m-color,h2 {
+  color: rgba(39, 0, 252, 0.7);
+}
+.bg-m-color {
+  background: rgba(39, 0, 252, 0.7);
+}
+.bg-main {
+  background: #EDF3FF;
+}
+.bg-sub {
+  background: #FFFBEA;
+}
+.badge {
+  background: linear-gradient(90deg,#709dff 0%,#2700fcb3 100%);
+  font-weight: 400;
+}
+
+.btn-main {
+  background: linear-gradient(to right, #FFB000, #FF6B8E);
+  color: white;
+}
+.keiko {
+  background: linear-gradient(transparent 70%,rgba(255,231,62,.6) 50%);
+}
+
+
+.beauty {
+  background: rgba(156, 20, 68, 0.1);
+}
+.beauty > h3 {
+  color: rgba(156, 20, 68, 0.1);
+}
+.beauty > .title {
+  border-left: 10px solid rgba(156, 20, 68);
+}
+.food {
+  background: rgba(244, 140, 12, 0.1);
+}
+.food > h3 {
+  color: rgba(244, 140, 12, 0.1);
+}
+
+.food > .title {
+  border-left: 10px solid rgba(244, 140, 12);
+}
+.dental {
+  background: rgba(210, 253, 253, 0.2);
+}
+.dental > h3 {
+  color: rgba(210, 253, 253, 0.8);
+}
+
+.dental > .title {
+  border-left: 10px solid rgba(42, 204, 234, 0.8);
+}

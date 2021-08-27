@@ -1,0 +1,74 @@
+/* contact */
+
+.wpcf7-text, .wpcf7-textarea {
+  margin-top: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 5px;
+}
+
+.wpcf7 .must {
+  color: #fff;
+  margin-right: 3px;
+  padding: 3px 8px;
+  background: #fb4b13;
+  border-radius: 20px;
+  font-size: .8em;
+}
+
+.wpcf7 .free {
+  color: #fff;
+  margin-right: 3px;
+  padding: 3px 8px;
+  background: rgba(39, 0, 252, 0.7);
+  border-radius: 20px;
+  font-size: .8em;
+}
+
+.wpcf7 label {
+  margin-bottom: 20px;
+}
+
+.wpcf7-submit {
+  width: 90%;
+  padding: 10px;
+  background: #EDF3FF;
+  margin:5px 0;
+}
+.wpcf7-submit:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.wpcf7-form > div {
+  position: relative;
+}
+
+.wpcf7-form > div > .privacy {
+  font-size: 0.8em;
+}
+@media screen and (max-width: 767px) {
+  .wpcf7-form > div > .privacy {
+    left: 22%;
+  }
+  .wpcf7-form-control-wrap {
+    max-width: 60%;
+  }
+  .wpcf7-text, .wpcf7-textarea {
+    margin-top: 10px;
+    width:100%;
+  }
+}
+
+.wpcf7-form > div > .privacy > a {
+  text-decoration: underline;
+}
+.wpcf7-form > div > .privacy > a:hover {
+  color: #000!important;
+}
+.modal-body {
+  padding: .5rem 2rem!important;
+}
+::placeholder {
+  color: #ababab;
+}
