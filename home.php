@@ -96,7 +96,7 @@
       </div>
     </section>
 
-    <!-- 売り上げにつながるサイト -->
+    <!-- 売り上げにつながるサイ ト -->
     <section id="feature" class="bg-main p-lg-5 px-3 py-5">
       <div class="position-relative text-center py-5">
         <p class="sub-title">\当社が全て対応/</p>
