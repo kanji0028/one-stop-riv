@@ -24,7 +24,7 @@
 
 
         </div>
-        <img id="main-img" class="img-fluid col-lg-5 mt-lg-5 mt-2 vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
+        <img id="main-img" class="img-fluid col-lg-5 mt-lg-5 mt-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
         <?php if( wp_is_mobile() ): ?> 
           <button type="button" class="btn btn-main my-4 d-block mx-auto" data-bs-toggle="modal" data-bs-target="#contact">今すぐ利用申し込み<i class="fas fa-chevron-right ms-3"></i></button>
         <?php endif; ?> 
