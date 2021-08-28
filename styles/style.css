@@ -59,7 +59,6 @@ main,footer {
   }
 }
 
-
 /* template */
 .slide-wrap {
   display: flex;
@@ -300,7 +299,9 @@ th,td {
 #flow .col-md-2 {
   z-index: 1;
 }
-
+#flow .btn-main {
+  font-size: 16px;
+}
 .flow-content:after{
   content: '';
   position: absolute;

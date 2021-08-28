@@ -357,7 +357,7 @@
               </div>
               <div class="">
                 <p>まずはお気軽にお問い合わせください。<span class="br">原則営業日1日以内にご連絡いたします。</p>
-                <button type="button" class="btn btn-main d-block mx-auto mt-4 w-75" data-bs-toggle="modal" data-bs-target="#contact">お問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+                <button type="button" class="btn btn-main d-block mx-auto mt-4 w-75" data-bs-toggle="modal" data-bs-target="#contact">お問い合わせ<i class="fas fa-chevron-right ms-2"></i></button>
               </div>
             </div>
           </div>
