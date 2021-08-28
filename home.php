@@ -1,8 +1,7 @@
 <?php get_header(); ?>
   <main>
   
-    <section id="top" class="p-md-4 p-3">
-
+    <section id="top" class="p-md-4 p-3 pb-5">
       <div class="row align-items-center justify-content-evenly">
         <div class="col-lg-5 mt-5 ms-md-5 top-title">
           <p class="mb-md-5 mb-2 fs-3">制作費・初期費用 <span class="m-color"><span class="price">0</span> 円</span>
@@ -30,7 +29,6 @@
           <button type="button" class="btn btn-main my-4 d-block mx-auto" data-bs-toggle="modal" data-bs-target="#contact">今すぐ利用申し込み<i class="fas fa-chevron-right ms-3"></i></button>
         <?php endif; ?> 
       </div>
-
     </section>
 
     <!-- 豊富なテンプレート -->
@@ -520,7 +518,5 @@
           </div>
         </div>
     </section>
-
-
   </main>
 <?php get_footer(); ?>

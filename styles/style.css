@@ -23,19 +23,13 @@ main,footer {
 /* top */
 #top {
   position: relative;
-  height: 100vh;
   background: url(../images/bg.jpg);
   background-size: cover;
 }
 @media screen and (min-width: 1200px) {
   #top {
-     height: 100vh;
+    height: 100vh;
   }
-}
-@media (max-width: 499px) and (min-height: 800px) {
-  #top {
-    height: 80vh;
- }
 }
 
 .top-title p:first-child {
@@ -58,7 +52,7 @@ main,footer {
 
 @media screen and (max-width: 992px) {
   #top #main-img {
-    width: 75%;
+    width: 70%;
   }
   .col-lg-5 > p:first-child {
     text-align: center;
@@ -155,7 +149,7 @@ main,footer {
 
 #feature img{
   height: 220px;
-  padding: 1.8rem!important;
+  padding: 2.2rem!important;
 }
 #feature .row .count {
   background: linear-gradient(90deg,#709dff 0%,#2700fcb3 100%);

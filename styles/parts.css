@@ -198,7 +198,7 @@ img.vert-move {
 }
 #js-infiniteslide {
   display: flex;
-  flex: nowrap;
+  flex-wrap: nowrap;
   align-items: center;
 }
 
