@@ -16,13 +16,11 @@
     </div>
   </div>
 
-  </div>
 
   <div class="bg-main p-md-4 pt-4 p-2">
-    <p class="logo lh-1 fw-bold text-center d-inline-block">
-      <span class="fs-6">ワンストップリブ</span>
-      <span class="br fs-3">One Stop Riv.</span>
-    </p>
+    <a href="/">
+      <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv.png" alt="">
+    </a>
     <p class="f-description mt-3 mb-4">制作費・初期費用 0 円<span class="br">月々5,980円で雇えるWebの営業マン</p>
     <div class="information d-md-flex justify-content-between lh-lg">
       <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
