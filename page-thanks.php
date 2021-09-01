@@ -26,7 +26,7 @@
       <div class="information d-md-flex justify-content-between lh-lg">
         <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
         <div>
-          <p><i class="fas fa-phone me-1"></i>電話番号：092-686-7954</p>
+          <p><i class="fas fa-phone me-1"></i>電話番号：050-3159-9527</p>
           <p><i class="fas fa-envelope me-1"></i>メールアドレス：info@riv-round.com</p>
         </div>
       </div>

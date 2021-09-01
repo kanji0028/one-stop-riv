@@ -1,7 +1,7 @@
 <footer>
   <div class="cta">
 
-    <div class="bg-main p-5">
+    <div class="bg-main p-sm-5">
     </div>  
 
     <div class="row justify-content-end">
@@ -11,7 +11,7 @@
       <div class="col-lg-7 py-md-5 py-2 text-center">
         <p class="mb-md-5 my-4">まずは無料でご相談ください。</p>
         <a class="p-3" data-bs-toggle="modal" data-bs-target="#contact">お問い合わせ・お申し込みはこちらから<i class="fas fa-chevron-right ms-4"></i></a>
-        <p class="my-md-5 my-4"><i class="fa fa-phone mx-2"></i>092-686-7954<span class="ms-2 small">(受付時間9:00〜18:00)</span></p>
+        <p class="my-md-5 my-4"><i class="fa fa-phone mx-2"></i>050-3159-9527<span class="ms-2 small">(受付時間9:00〜18:00)</span></p>
       </div>
     </div>
   </div>
@@ -25,12 +25,12 @@
     <div class="information d-md-flex justify-content-between lh-lg">
       <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
       <div>
-        <p><i class="fas fa-phone me-1"></i>電話番号：092-686-7954</p>
+        <p><i class="fas fa-phone me-1"></i>電話番号：050-3159-9527</p>
         <p><i class="fas fa-envelope me-1"></i>メールアドレス：info@riv-round.com</p>
       </div>
     </div>
   </div>
-  <div class="bg-m-color p-3">
+  <div class="bg-m-color p-3 copyright">
     <p class="text-white text-center small">＠RIVROUND.INC</p>
   </div>
 </footer>
@@ -38,7 +38,7 @@
 <?php if( wp_is_mobile() ): ?> 
 <div id="mobile-menu" class="for-sp">
   <ul>
-    <li class="bg-m-color"><a href="tel:092-686-7954">
+    <li class="bg-m-color"><a href="tel:050-3159-9527">
       <i class="fas fa-phone"></i>
       電話でお問い合わせ</a>
     </li>
