@@ -256,17 +256,17 @@
 
     <!-- 比較 -->
     <section id="charge-table" class="p-lg-5 px-1 py-5">
-      <div class="text-center py-5">
+      <div class="text-center py-4">
         <p class="sub-title">\比べてください/</p>
         <h2>One Stop Riv.<small>はこんなに</small>お得</h2>
       </div>
 
       <div class="table-responsive px-lg-5">
         <table class="table table-borderless text-center lh-1 align-middle mb-1" id="table">
-          <thead>
+          <thead id="thead1">
             <tr class="bg-white">
               <th></th>
-              <th class="pb-2">
+              <th class="pb-2 riv">
                 <img width="40" class="mx-auto" src="<?php echo get_template_directory_uri(); ?>/images/icon/light.png" alt="">
               </th>
               <th></th>
@@ -349,7 +349,7 @@
 
     <!-- 流れ -->
     <section id="flow" class="bg-sub p-lg-5 px-3 py-5">
-      <div class="text-center py-5">
+      <div class="text-center py-4">
         <p class="sub-title">\かんたんステップ/</p>
         <h2>サイト制作の流れ</h2>
       </div>

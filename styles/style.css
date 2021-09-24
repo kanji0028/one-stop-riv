@@ -14,6 +14,9 @@ main,footer {
   align-items: center;
   justify-content: space-between;
 }
+#head_container img {
+  width: 48%;
+}
 
 .logo {
   color: #fff;
@@ -76,7 +79,7 @@ main,footer {
 }
 @media screen and (max-width: 992px) {
   .slide-content {
-    flex: 0 0 45%;
+    flex: 0 0 55%;
     margin: 0 5px;
   }
 }
@@ -123,6 +126,11 @@ main,footer {
     font-weight: 700;
   }
 }
+@media screen and (max-width: 320px) {
+  #price .boul > div {
+    height: 75px;
+  }
+}
 
 #price .boul > div:nth-child(2n) {
   background: #EDF3FF;
@@ -132,7 +140,8 @@ main,footer {
   text-align: center;  
   top: 45%; /*親のtopから50%*/
   left: 50%; /*親のleftから50%*/
-  transform: translateY(-50%) translateX(-50%); /*子要素自体の大きさを考慮*/
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
 }
 
 /* feature */
@@ -203,13 +212,22 @@ tbody > * {
   .table>:not(caption)>*>* {
     padding: 1.2rem .4rem;
   }
+  tr > th:first-child {
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0 .3rem;
+  }
 }
 
 #table thead {
   background: #C6C6C6;
 }
+#table #thead1 .riv {
+  background: none!important;
+}
+
 #table .riv {
-  background: #96b2ff!important;
+  background: #96b2ff;
   font-weight: 400;
 }
 #table thead .riv{
@@ -276,7 +294,7 @@ th,td {
   z-index: 1;
 }
 .step button {
-  width: 85%!important;
+  width: 95%!important;
 }
 
 .step .border-end {
@@ -392,6 +410,19 @@ th,td {
     background-blend-mode:lighten;
   }
 }
+@media screen and (max-width: 375px) {
+  .cta a {
+    font-size: .8em;
+  }
+}
+.footer-logo {
+  width: 48%;
+}
+@media screen and (min-width: 768px) {
+  .footer-logo {
+    width: 220px;
+  }
+}
 
 .f-description {
   color: initial;
@@ -402,6 +433,9 @@ th,td {
     font-size: .8em;
   }
 }
+.copyright {
+  height: 50px;
+}
 
 /* プライバシーポリシー */
 #privacy-policy li{
@@ -411,4 +445,24 @@ th,td {
 #privacy-policy p {
   margin-bottom: 30px;
   font-size: .9em;
+}
+/* サンクスページ */
+@media screen and (max-width: 767px){
+  #thanks {
+    padding-top: 20%;
+  }
+}
+@media screen and (min-width: 768px){
+#thanks {
+  height: 100vh;
+}
+}
+  
+#thanks > div > * {
+  margin-bottom: 20px;
+}
+
+#thanks > div >a:hover {
+  color: #fff;
+  background: #000;
 }

@@ -12,12 +12,9 @@
 </head>
 <body>
   <header id="header">
-    <div id="head_container" class="p-3">
+    <div id="head_container" class="p-md-3 p-2">
       <a href="/">
-        <h1 class="logo text-center lh-1 fs-3">
-          <span class="fs-6">ワンストップリブ</span>
-          <span class="br fs-3">One Stop Riv.</span>
-        </h1>
+        <img class="" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv.png" alt="" width="220">
       </a>
       <?php if( !wp_is_mobile() ): ?> 
         <button type="button" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#contact">まずはお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>

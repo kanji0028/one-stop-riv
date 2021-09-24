@@ -22,6 +22,8 @@
   align-items: center;
   width: 50%;
   font-size: 11px;
+}
+#mobile-menu li:first-child{
   border-right: 1px solid #fff;
 }
 
