@@ -40,8 +40,11 @@
       </div>
 
       <div id="js-infiniteslide" class="gallery px-md-5 pb-5">
+
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-4.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-2.jpg" alt="">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-1.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-2.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt="">
@@ -204,7 +207,7 @@
       </div>
       <div class="beauty pb-5">
         <h3 class="fadeIn">Beauty</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>美容院</p></div>
+        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>美容室・エステサロン</p></div>
         
         <div class="slide-wrap px-md-5 pb-5"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt=""></div>
@@ -215,7 +218,6 @@
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-6.jpg" alt=""></div>
         </div>
       </div>
-
       <div class="food pb-5">
         <h3 class="fadeIn">Food</h3>
         <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>飲食店</p></div>
@@ -228,14 +230,25 @@
         </div>
       </div>
       <div class="dental pb-5">
-        <h3 class="fadeIn">Dental</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>歯科医院</p></div>
+        <h3 class="fadeIn">Clinic</h3>
+        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>医院・歯科医院</p></div>
         <div class="slide-wrap px-md-5 pb-5"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-2.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-3.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-4.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-5.jpg" alt=""></div>
+        </div>
+      </div>
+      <div class="construction pb-5">
+        <h3 class="fadeIn">Const<br>ruction</h3>
+        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>建設業</p></div>
+        <div class="slide-wrap px-md-5 pb-5"> 
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-1.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-3.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-4.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-5.jpg" alt=""></div>
         </div>
         <button type="button" class="btn btn-main d-block mx-auto my-5 py-3" data-bs-toggle="modal" data-bs-target="#contact">まずはお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
       </div>
