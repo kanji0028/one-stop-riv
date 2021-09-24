@@ -50,10 +50,10 @@
 .dental > h3 {
   color: rgba(210, 253, 253, 0.8);
 }
-.construction {
+.other {
   background: rgba(217, 248, 214, 0.2);
 }
-.construction > h3 {
+.other > h3 {
   color: rgba(217, 248, 214, 0.8);
 }
 

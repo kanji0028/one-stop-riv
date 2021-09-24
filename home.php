@@ -203,7 +203,7 @@
     <section id="industry">
       <div class="text-center py-5">
         <p class="sub-title">\業種別に最適なテンプレートを用意/</p>
-        <h2>こんな業種でお使い頂けます</h2>
+        <h2>様々な業種でお使い頂けます</h2>
       </div>
       <div class="beauty pb-5">
         <h3 class="fadeIn">Beauty</h3>
@@ -240,9 +240,9 @@
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-5.jpg" alt=""></div>
         </div>
       </div>
-      <div class="construction pb-5">
-        <h3 class="fadeIn">Const<br>ruction</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>建設業</p></div>
+      <div class="other pb-5">
+        <h3 class="fadeIn">Other</h3>
+        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>中小企業<span>建設・通信・運送etc..</span></p></div>
         <div class="slide-wrap px-md-5 pb-5"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt=""></div>
