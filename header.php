@@ -17,6 +17,16 @@
 
   gtag('config', 'G-EXH0NKP5XQ');
   </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-208315055-1">
+  </script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-208315055-1');
+  </script>
   <?php wp_head(); ?> 
 </head>
 <body>
