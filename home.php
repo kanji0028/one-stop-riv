@@ -5,8 +5,8 @@
       <div class="row align-items-center justify-content-evenly">
         <div class="col-lg-5 mt-5 ms-md-5 top-title">
           <p class="mb-md-5 mb-2 fs-3">制作費・初期費用 <span class="m-color"><span class="price">0</span> 円</span>
-            <span class="br">月々<span class="m-color price">5,980<span class="fs-3">円</span></span>で雇える</span>
-            <span class="br fs-1">Webの営業マン</span>
+            <span class="br">月々<span class="m-color price">4,980<span class="fs-3">円</span></span>で雇える<br class="view-sp"></span>
+            <span class="txt-md">効果の出るホームページ制作</span>
           </p>
 
           <?php if( !wp_is_mobile() ): ?> 
@@ -26,7 +26,7 @@
         </div>
         <img id="main-img" class="img-fluid col-lg-5 mt-lg-5 mt-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
         <?php if( wp_is_mobile() ): ?> 
-          <button type="button" class="btn btn-main my-4 d-block mx-auto" data-bs-toggle="modal" data-bs-target="#contact">今すぐ利用申し込み<i class="fas fa-chevron-right ms-3"></i></button>
+          <button type="button" class="btn btn-main my-4 d-block mx-auto" data-bs-toggle="modal" data-bs-target="#contact">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
         <?php endif; ?> 
       </div>
     </section>
@@ -70,13 +70,13 @@
       <?php endif; ?> 
       <div class="text-center py-5 position-relative">
         <p class="sub-title">\安心の料金プラン/</p>
-        <h2>利用料は月額の5,980円のみ</h2>
+        <h2>利用料は月額の4,980円のみ</h2>
         <span class="position-absolute balloon balloon-right fs-5 fw-bold">解約も自由！</span> 
       </div>
       <div class="row row-cols-lg-2">
         <img class="img-fluid my-3 fadeIn" src="<?php echo get_template_directory_uri(); ?>/images/price.png" alt="">
         <div class="my-3 p-md-5">
-          <p class="mb-4">One Stop Rivは、月額定額制(サブスクリプション型)のホームページ制作サービスです。月額制なので製作費は0円、月額5,980円(+税)でご利用頂けます。</p>
+          <p class="mb-4">One Stop Rivは、月額定額制(サブスクリプション型)のホームページ制作サービスです。月額制なので製作費は0円、月額4,980円(+税)でご利用頂けます。</p>
           <p>※ご契約期間の縛り、早期解約の違約金は一切ないので、必要性を感じなくなればいつでもご解約頂けます。</p>
         </div>
       </div>

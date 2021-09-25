@@ -46,7 +46,10 @@ main,footer {
 
 @media screen and (max-width: 767px) {
   #top p,#top .fs-1{
-    font-size: 1.1em!important;
+    font-size: 1.4em!important;
+  }
+  .txt-md {
+    font-size: 26px;
   }
   .col-lg-5 > p:first-child {
     line-height: 40px;
