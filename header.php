@@ -37,7 +37,7 @@
   <!-- End Google Tag Manager (noscript) -->
   <header id="header">
     <div id="head_container" class="p-md-3 p-2">
-      <a id="top" href="/">
+      <a href="/">
         <img class="" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv.png" alt="" width="220">
       </a>
       <?php if( !wp_is_mobile() ): ?> 
