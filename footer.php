@@ -9,19 +9,17 @@
         <img class="img-fluid my-md-3 rounded-1 shadow" src="<?php echo get_template_directory_uri(); ?>/images/cta.jpg" alt="">
       </div>
       <div class="col-lg-7 py-md-5 py-2 text-center">
-        <p class="mb-md-5 my-4">まずは無料でご相談ください。</p>
-        <a class="p-3" data-bs-toggle="modal" data-bs-target="#contact">お問い合わせ・お申し込みはこちらから<i class="fas fa-chevron-right ms-4"></i></a>
+        <p class="mb-md-5 my-4">ぜひ無料でご相談ください。</p>
+        <button type="button" class="btn btn-main d-block mx-auto py-3" data-bs-toggle="modal" data-bs-target="#contact">まずはお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
         <p class="my-md-5 my-4"><i class="fa fa-phone mx-2"></i>050-3159-9527<span class="ms-2 small">(受付時間9:00〜18:00)</span></p>
       </div>
     </div>
   </div>
-
-
   <div class="bg-main p-md-4 pt-4 p-2">
     <a href="/">
-      <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv.png" alt="">
+      <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv2.png" alt="">
     </a>
-    <p class="f-description mt-3 mb-4">制作費・初期費用 0 円<span class="br">月々5,980円で雇えるWebの営業マン</p>
+    <p class="f-description mt-3 mb-4">制作費・初期費用 0 円<span class="br">月々4,980円で作れる<br>効果の出るホームページ制作</p>
     <div class="information d-md-flex justify-content-between lh-lg">
       <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
       <div>

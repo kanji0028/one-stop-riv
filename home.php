@@ -5,7 +5,7 @@
       <div class="row align-items-center justify-content-evenly">
         <div class="col-lg-5 mt-5 ms-md-5 top-title">
           <p class="mb-md-5 mb-2 fs-3">制作費・初期費用 <span class="m-color"><span class="price">0</span> 円</span>
-            <span class="br">月々<span class="m-color price">4,980<span class="fs-3">円</span></span>で雇える<br class="view-sp"></span>
+            <span class="br">月々<span class="m-color price">4,980<span class="fs-3">円</span></span>で作れる<br class="view-sp"></span>
             <span class="txt-md">効果の出るホームページ制作</span>
           </p>
 
@@ -74,7 +74,7 @@
         <span class="position-absolute balloon balloon-right fs-5 fw-bold">解約も自由！</span> 
       </div>
       <div class="row row-cols-lg-2">
-        <img class="img-fluid my-3 fadeIn" src="<?php echo get_template_directory_uri(); ?>/images/price.png" alt="">
+        <img class="img-fluid my-3 fadeIn" src="<?php echo get_template_directory_uri(); ?>/images/price4980.png" alt="">
         <div class="my-3 p-md-5">
           <p class="mb-4">One Stop Rivは、月額定額制(サブスクリプション型)のホームページ制作サービスです。月額制なので製作費は0円、月額4,980円(+税)でご利用頂けます。</p>
           <p>※ご契約期間の縛り、早期解約の違約金は一切ないので、必要性を感じなくなればいつでもご解約頂けます。</p>
@@ -86,10 +86,10 @@
           <p class="position-absolute fs-5 lh-sm text-white">制作費<span class="br fs-1">0</span>円</span></p>  
         </div>
         <div class="rounded-circle position-relative shadow bg-main vert-move-2">
-          <p class="position-absolute fs-5 lh-sm">入会費<span class="br fs-1">0</span>円</span></p>  
+          <p class="position-absolute fs-5 lh-sm">初期費用<span class="br fs-1">0</span>円</span></p>  
         </div>
         <div class="rounded-circle position-relative shadow vert-move-1">
-          <p class="position-absolute fs-5 lh-sm text-white">退会費<span class="br fs-1">0</span>円</span></p>  
+          <p class="position-absolute fs-5 lh-sm text-white">更新費<span class="br fs-1">0</span>円</span></p>  
         </div>
         <div class="rounded-circle position-relative shadow bg-main vert-move-2">
           <p class="position-absolute fs-5 lh-sm">契約縛り<span class="br fs-2">なし</span></p>  
@@ -102,7 +102,7 @@
       <div class="position-relative text-center py-5">
         <p class="sub-title">\当社が全て対応/</p>
         <h2>売上につながるサイト制作</h2>
-        <span class="position-absolute balloon balloon-right fs-5 fw-bold">毎月20社限定！</span>
+        <span class="position-absolute balloon balloon-right fs-5 fw-bold">選ばれる理由！</span>
       </div>
       <div class="row row-cols-lg-3 row-cols-md-2 px-md-3">
         <div class="my-4">
@@ -205,11 +205,11 @@
         <p class="sub-title">\業種別に最適なテンプレートを用意/</p>
         <h2>様々な業種でお使い頂けます</h2>
       </div>
-      <div class="beauty pb-5">
+      <div class="beauty industry-item pb-3">
         <h3 class="fadeIn">Beauty</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>美容室・エステサロン</p></div>
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>美容室・エステサロン</p></div>
         
-        <div class="slide-wrap px-md-5 pb-5"> 
+        <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-2.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-3.jpg" alt=""></div>
@@ -218,10 +218,10 @@
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-6.jpg" alt=""></div>
         </div>
       </div>
-      <div class="food pb-5">
+      <div class="food industry-item pb-3">
         <h3 class="fadeIn">Food</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>飲食店</p></div>
-        <div class="slide-wrap px-md-5 pb-5"> 
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>飲食店</p></div>
+        <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-2.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-3.jpg" alt=""></div>
@@ -229,10 +229,10 @@
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-5.jpg" alt=""></div>
         </div>
       </div>
-      <div class="dental pb-5">
+      <div class="dental industry-item pb-3">
         <h3 class="fadeIn">Clinic</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>医院・歯科医院</p></div>
-        <div class="slide-wrap px-md-5 pb-5"> 
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>医院・歯科医院</p></div>
+        <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-2.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-3.jpg" alt=""></div>
@@ -240,10 +240,21 @@
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-5.jpg" alt=""></div>
         </div>
       </div>
-      <div class="other pb-5">
+      <div class="professional industry-item pb-3">
+        <h3 class="fadeIn">Professional</h3>
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>士業</p></div>
+        <div class="slide-wrap px-md-5 pb-3"> 
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-1.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-2.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-3.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-4.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-5.jpg" alt=""></div>
+        </div>
+      </div>
+      <div class="other industry-item pb-3">
         <h3 class="fadeIn">Other</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-5 shadow-sm scroll-left"><p>中小企業<span>建設・通信・運送etc..</span></p></div>
-        <div class="slide-wrap px-md-5 pb-5"> 
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>中小企業<span>建設・通信・運送etc..</span></p></div>
+        <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-3.jpg" alt=""></div>
@@ -293,7 +304,7 @@
             </tr>
             <tr class="bg-light">
               <th scope="row" class="bg-light">月額保守運用</th>
-              <td class="riv">5,980<span class="small">円</td>
+              <td class="riv">4,980<span class="small">円</td>
               <td>20,000<span class="small">円〜</td>
               <td>10,000<span class="small">円〜</td>
               <td>10,000<span class="small">円〜</td>
@@ -306,11 +317,11 @@
               <td>更新無料</td>
             </tr>
             <tr class="bg-light">
-              <th scope="row" class="bg-light">リニューアル<span class="br">費用</th>
+              <th scope="row" class="bg-light">サーバー・ドメイン<span class="br">費用</th>
               <td class="riv">0<span class="small">円</td>
-              <td>150<span class="small">万円</td>
-              <td>20<span class="small">万円</td>
-              <td>30<span class="small">万円</td>
+              <td>12,000<span class="small">円/年</td>
+              <td>12,000<span class="small">円/年</td>
+              <td>12,000<span class="small">円/年</td>
             </tr>
             <tr class="bg-light">
               <th scope="row" class="bg-light">デザイン性</th>
@@ -334,11 +345,11 @@
               <td>14〜30日<span class="small">程度</td>
             </tr>
             <tr class="year-cost">
-              <th scope="row" class="bg-light">年間コスト<span class="br small">※リニューアル1回換算</th>
-              <td class="riv">71,760<span class="small">円</td>
-              <td>3,740,000<span class="small">円</td>
-              <td>620,000<span class="small">円</td>
-              <td>1,040,000<span class="small">円</td>
+              <th scope="row" class="bg-light">年間コスト<span class="br small"></th>
+              <td class="riv">59,760<span class="small">円</td>
+              <td>2,252,000<span class="small">円</td>
+              <td>564,000<span class="small">円</td>
+              <td>864,000<span class="small">円</td>
             </tr>
           </tbody>
         </table>
@@ -441,7 +452,7 @@
     </section>
 
     <!-- Q&A -->
-    <section id="qa" class="bg-main p-lg-5 px-3 py-5">
+    <section id="qa" class="p-lg-5 px-3 py-5">
       <div class="text-center py-5">
         <p class="sub-title">\不安を解消/</p>
         <h2>よくあるご質問</h2>

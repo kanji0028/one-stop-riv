@@ -186,7 +186,7 @@ img.vert-move {
   #js-infiniteslide img,.industry-slide img {
     margin: 0 20px;
     width: 25%;
-    border-radius: 17px;
+    border-radius: 5px;
     box-shadow: 0 .5rem 1rem rgba(80, 62, 62, 0.15);
   }
 }

@@ -200,7 +200,7 @@ https://github.com/woodroots/infiniteslidev2
   });
   $(function () {
     $('#js-infiniteslide').infiniteslide({
-      speed: 25, //速さ 単位はpx/秒です。
+      speed: 35, //速さ 単位はpx/秒です。
       direction: 'left', //up/down/left/rightから選択
       pauseonhover: false, //マウスオーバーでストップ
       responsive: false, //子要素の幅を%で指定しているとき
