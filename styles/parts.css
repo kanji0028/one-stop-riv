@@ -62,17 +62,25 @@ a:hover,button:hover {
   font-size: 18px;
   display: inline-block;
   cursor: pointer;
+  max-width: 300px;
 }
 
-/* ボタン */
-section .btn-main {
-  width: 500px;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 599px) {
   section .btn-main {
     width: 90%;
   } 
+}
+@media screen and (min-width: 600px) {
+  section .btn-main {
+    width: 450px;
+    max-width: 500px;
+  } 
+  #top .btn-main {
+    max-width: 350px;
+  }
+  .top-btn {
+    text-align: left;
+  }
 }
 
 

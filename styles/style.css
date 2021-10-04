@@ -32,6 +32,22 @@ main,footer {
   background-size: contain;
   z-index: -1;
 }
+@media (min-width:600px) {
+  #header::before {
+    height: 150px;
+    width: 340px;
+  }
+}
+@media (min-width:960px) {
+  #header::before {
+    height: 200px;
+    width: 400px;
+  }
+}
+.sp-navbtn.hide {
+  transform: translateY(100%);
+  transition: all 0.3s;
+}
 .logo {
   color: #fff;
   text-shadow: 0 0 3px #868686;
@@ -43,51 +59,122 @@ main,footer {
   background: url(../images/bg-sp.png);
   background-size: cover;
 }
-@media (min-width:900px) {
-  #top {
-    background: url(../images/bg.jpg);
-  background-size: cover;
-
-  }
-}
-@media screen and (min-width: 1200px) {
-  #top {
-    height: 100vh;
-  }
+.top-inner {
+  margin-top: 80px;
 }
 .top-title {
-  text-align: center;
+  display: inline-block;
 }
 .top-title p {
   text-align: left;
-  display: inline-block;
-}
-.top-title p:first-child {
   text-shadow: 3px 3px 4px #fff;
+  margin-bottom: 8px;
+  font-size: 1.5rem !important;
 }
-
+.top-btn {
+  text-align: center;
+}
+.top-img {
+  text-align: center;
+}
 .price {
-  font-size: 3.4rem;
+  font-size: 2.6rem;
   font-weight: 700;
 }
-
-@media screen and (max-width: 767px) {
-  #top p,#top .fs-1{
-    font-size: 1.4em!important;
+.pc-desc {
+  text-align: center;
+}
+.pc-desc p {
+  font-size: 1rem !important;
+}
+@media (min-width:600px) {
+  .top-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top-wrap {
+    width: 55%;
+  }
+  .top-img {
+    width: 45%;
+  }
+  #main-img {
+    margin-top: 0 !important;
+  }
+  #main-img > img{
+    margin-top: 0 !important;
+  }
+  .top-inner .view-sp {
+    display: none;
+  }
+}
+@media (min-width:960px) {
+  .top-inner {
+    margin-top: 100px;
+    padding: 0 80px 30px 80px;
+  }
+  .top-title p {
+    margin-bottom: 30px;
+    font-size: 1.8rem !important;
+  }
+  #main-img {
+    width: 70%;
   }
   .txt-md {
-    font-size: 26px;
+    font-size: 2rem !important;
+  }
+  .price {
+    font-size: 3.4rem !important;
+  }
+  #top {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+  }
+}
+@media (min-width:1200px) {
+  .top-inner {
+    margin-top: 160px;
+    padding: 0 150px 30px 150px;
+  }
+  .top-title p {
+    margin-bottom: 40px;
+    font-size: 2.2rem !important;
+  }
+  #main-img {
+    width: 60%;
+  }
+  .txt-md {
+    font-size: 2.4rem !important;
+  }
+}
+@media (max-width:599px) {
+  .top-inner .view-pc {
+  display: none;
+}
+.top-wrap {
+  text-align: center;
+  margin: 0 auto;
+}
+}
+@media (max-width: 767px) {
+
+  .txt-md {
+    font-size: 1.6rem !important;
   }
   .col-lg-5 > p:first-child {
     line-height: 40px;
   }
 }
-
-@media screen and (max-width: 992px) {
+@media (max-width: 959px) {
   #top #main-img {
     width: 65%;
   }
-}
+  .pc-desc {
+    display: none;
+  }
+  }
+
+
 
 /* template */
 .slide-wrap {
@@ -183,10 +270,15 @@ main,footer {
   background: url(../images/box-b.png) no-repeat center bottom, url(../images/box-a.png) no-repeat center top rgba(255, 255, 255, 0.96);
   background-size: 100% auto, 100% auto, contain;
 }
+@media (min-width:900px) and (max-width:1199px){
+  #feature .box {
+    height: 350px;
+  }
+}
 
 #feature img{
   height: 180px;
-  opacity: 0.8;
+  opacity: 0.9;
   padding: 2.2rem!important;
 }
 #feature .row .count {
@@ -332,6 +424,14 @@ th,td {
 
 
 /* flow */ 
+/* flowが画像の場合 */
+/* .flow-img img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+} */
+/* flowが画像の場合 */
+
 .step h3::before {
     content: '';/*何も入れない*/
     display: inline-block;/*忘れずに！*/
@@ -441,7 +541,7 @@ th,td {
 /* footer */
 
 .cta-image > img {
-  width: 95%;
+  width: 90%;
 }
 @media screen and (min-width: 768px) {
   .cta > div > div > * {
@@ -487,7 +587,7 @@ th,td {
   }
 }
 .footer-logo {
-  width: 48%;
+  width: 38%;
 }
 @media screen and (min-width: 768px) {
   .footer-logo {
@@ -498,6 +598,19 @@ th,td {
 .f-description {
   color: initial;
   font-weight: 400;
+}
+@media (min-width:600px) {
+  .footer-desc {
+    display: flex;
+    align-items: center;
+  }
+  .information {
+    display: flex;
+    margin-left: 3rem;
+  }
+  .information > div {
+    margin-left: 3rem;
+  }
 }
 @media screen and (max-width: 767px) {
   .information {

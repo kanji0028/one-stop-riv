@@ -19,12 +19,14 @@
     <a href="/">
       <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv2.png" alt="">
     </a>
-    <p class="f-description mt-3 mb-4">制作費・初期費用 0 円<span class="br">月々4,980円で作れる<br>効果の出るホームページ制作</p>
-    <div class="information d-md-flex justify-content-between lh-lg">
-      <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
-      <div>
-        <p><i class="fas fa-phone me-1"></i>電話番号：050-3159-9527</p>
-        <p><i class="fas fa-envelope me-1"></i>メールアドレス：info@riv-round.com</p>
+    <div class="footer-desc">
+      <p class="f-description mt-3 mb-4">制作費・初期費用 0 円<span class="br">月々4,980円で作れる<br>効果の出るホームページ制作</p>
+      <div class="information lh-lg">
+        <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
+        <div>
+          <p><i class="fas fa-phone me-1"></i>050-3159-9527</p>
+          <p><i class="fas fa-envelope me-1"></i>info@riv-round.com</p>
+        </div>
       </div>
     </div>
   </div>
@@ -34,7 +36,7 @@
 </footer>
 
 <?php if( wp_is_mobile() ): ?> 
-<div id="mobile-menu" class="for-sp">
+<div id="mobile-menu" class="for-sp sp-navbtn">
   <ul>
     <li class="bg-m-color"><a href="tel:050-3159-9527">
       <i class="fas fa-phone"></i>

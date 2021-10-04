@@ -1,17 +1,31 @@
 <?php get_header(); ?>
   <main>
-  
+    <!-- ファーストビュー -->
     <section id="top" class="p-md-4 p-3 pb-5">
-      <div class="row align-items-center justify-content-evenly">
-        <div class="col-lg-5 mt-5 ms-md-5 top-title">
-          <p class="mb-md-5 mb-2 fs-3">制作費・初期費用 <span class="m-color"><span class="price">0</span> 円</span>
-            <span class="br">月々<span class="m-color price">4,980<span class="fs-3">円</span></span>で作れる<br class="view-sp"></span>
-            <span class="txt-md">効果の出るホームページ制作</span>
-          </p>
-
-          <?php if( !wp_is_mobile() ): ?> 
+      <div class="top-inner">
+        <div class="top-wrap">
+          <h1 class="top-title">
+            <p class="txt-sm">制作費・初期費用 <span class="m-color price">0<span class="fs-3">円</span></span></p>
+            <p class="txt-sm">
+            <p>月々 <span class="m-color price">4,980<span class="fs-3">円</span></span>で作れる</p>
+            <p>
+              <span class="txt-md">効果の出るホームページ制作</span>
+            </p>
+          </h1>
+          <div class="top-btn">
+            <button type="button" class="btn btn-main my-4 mx-auto view-pc" data-bs-toggle="modal" data-bs-target="#contact">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+          </div>
+        </div>
+        <div class="top-img">
+            <img id="main-img" class="img-fluid mt-lg-5 mt-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
+        </div>
+        <div class="top-btn">
+            <button type="button" class="btn btn-main my-4 mx-auto view-sp" data-bs-toggle="modal" data-bs-target="#contact">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+          </div>
+      </div>
+      <div class="pc-desc">
           <p class="fs-5 mb-3">One Stop Riv.は月額制(サブスクリプション型)の
-            <span class="br-pc">ホームページ制作サービスです。
+          <span>ホームページ制作サービスです。
           </p>
           <span class="badge rounded-pill bg-m-color fs-6 m-1 p-md-3 p-2">制作費0円</span>
           <span class="badge rounded-pill fs-6 m-1 p-md-3 p-2">オリジナルデザイン</span>
@@ -19,15 +33,6 @@
           <span class="badge rounded-pill bg-m-color fs-6 m-1 p-md-3 p-2">投稿機能</span>
           <span class="badge rounded-pill bg-m-color fs-6 m-1 p-md-3 p-2">最短5日納品</span>
           <span class="badge rounded-pill bg-m-color fs-6 m-1 p-md-3 p-2">SSL化対応</span>
-          <?php endif; ?>
-          
-
-
-        </div>
-        <img id="main-img" class="img-fluid col-lg-5 mt-lg-5 mt-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
-        <?php if( wp_is_mobile() ): ?> 
-          <button type="button" class="btn btn-main my-4 d-block mx-auto" data-bs-toggle="modal" data-bs-target="#contact">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
-        <?php endif; ?> 
       </div>
     </section>
 
@@ -112,7 +117,7 @@
             </div>
             <img class="img-fluid p-4" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-1.png" alt="">
             <h3>デザイン性の高いホームページ</h3>
-            <p class="px-md-5">厳選したデザインをテンプレートとして利用できる</p>
+            <p class="px-md-4">厳選したデザインをテンプレートとして利用できる</p>
           </div>
         </div>
         <div class="my-4">
@@ -122,17 +127,17 @@
             </div>
             <img class="img-fluid p-4" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-2-2.png" alt="">
             <h3>モバイル・タブレットも対応</h3>
-            <p class="px-md-5">ユーザーが閲覧するデバイスに合わせた最適なデザインを採用</p>
+            <p class="px-md-4">ユーザーが閲覧するデバイスに合わせた最適なデザインを採用</p>
           </div>
         </div>
         <div class="my-4">
-        <div class="bg-white box shadow-sm px-3 py-4 text-center position-relative">
+          <div class="bg-white box shadow-sm px-3 py-4 text-center position-relative">
             <div class="position-absolute count">
               <p class="text-white fs-3">3</p>
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-3.png" alt="">
             <h3>お知らせ機能を実装</h3>
-            <p class="px-md-5">ユーザーに最新情報を発信するお知らせ機能でカンタン情報発信</p>
+            <p class="px-md-4">ユーザーに最新情報を発信するお知らせ機能でカンタン情報発信</p>
           </div>
         </div>
         <div class="my-4">
@@ -142,7 +147,7 @@
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-4.png" alt="">
             <h3>SEO対策で集客支援</h3>
-            <p class="px-md-5">より多くの訪問者数を獲得するためのSEO対策を実施</p>
+            <p class="px-md-4">より多くの訪問者数を獲得するためのSEO対策を実施</p>
           </div>
         </div>
         <div class="my-4">
@@ -152,7 +157,7 @@
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-5.png" alt="">
             <h3>各種解析ツールの設定</h3>
-            <p class="px-md-5">Googleアナリティクス・サーチコンソールでユーザー情報を分析</p>
+            <p class="px-md-4">Googleアナリティクス・サーチコンソールでユーザー情報を分析</p>
           </div>
         </div>
         <div class="my-4">
@@ -162,7 +167,7 @@
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-6.png" alt="">
             <h3>日々の更新・リニューアルOK</h3>
-            <p class="px-md-5">写真の差替えや文言の変更など掲載内容変更も毎月無料で対応</p>
+            <p class="px-md-4">写真の差替えや文言の変更など掲載内容変更も毎月無料で対応</p>
           </div>
         </div>
         <div class="my-4">
@@ -172,17 +177,7 @@
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-7.png" alt="">
             <h3>サーバー保守・管理もお任せ</h3>
-            <p class="px-md-5">インターネット上に公開するためのサーバー管理・保守運用を代行</p>
-          </div>
-        </div>
-        <div class="my-4">
-          <div class="bg-white box shadow-sm px-3 py-4 text-center position-relative">
-            <div class="position-absolute count">
-              <p class="text-white fs-3">8</p>
-            </div>
-            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-8.png" alt="">
-            <h3>SSL化でセキュリティ対策</h3>
-            <p class="px-md-5">インターネット上での通信暗号化を実施し、セキュリティ対策</p>
+            <p class="px-md-4">インターネット上に公開するためのサーバー管理・保守運用を代行</p>
           </div>
         </div>
         <div class="my-4">
@@ -192,7 +187,18 @@
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-9.png" alt="">
             <h3>最短5営業日のスピード公開</h3>
-            <p class="px-md-5">お申し込みから最短5日営業日でホームページを公開</p>
+            <p class="px-md-4">お申し込みから最短5日営業日でホームページを公開</p>
+          </div>
+        </div>
+        <div class="my-4">
+          <div class="bg-white box shadow-sm px-3 py-4 text-center position-relative">
+            <div class="position-absolute count">
+              <p class="text-white fs-3">8</p>
+            </div>
+            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-10.png" alt="">
+            <h3>あると助かる機能も全て無料</h3>
+            <p class="px-md-4">SSL化対応・SNS連携・wordpress化・<br class="view-sp">お問い合わせフォームも無料
+            </p>
           </div>
         </div>
       </div>
@@ -449,6 +455,12 @@
           </div>
         </div>
       </div>
+      <!-- flow画像の場合 -->
+        <!-- <div class="flow-img">
+          <img s src="<?php echo get_template_directory_uri(); ?>/images/flow-LP.png" alt="">
+        </div> -->
+      <!-- flow画像の場合 -->
+
     </section>
 
     <!-- Q&A -->
@@ -474,7 +486,7 @@
           </div>
 
           <div>
-            <div class="bg-white shadow m-3 p-lg-5 p-4 mt-md-5">
+            <div class="bg-white shadow m-3 p-lg-5 p-4 ">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
                 <h3 class="mx-3">準備するものはありますか？</h3>
@@ -490,18 +502,18 @@
             <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
-                <h3 class="mx-3">月額5,980円のほかにかかる費用はありますか？</h3>
+                <h3 class="mx-3">月額4,980円のほかにかかる費用はありますか？</h3>
               </div>
 
               <div class="d-flex mt-4">
                 <p class="fs-1 fw-bold answer">A</p>
-                <p class="mx-3">ございません。<span class="br">入会・退会時にかかる費用や契約の縛りも一切ございませんので、お気軽にご利用頂けます。</p>
+                <p class="mx-3">ございません。<span class="br">作成時も解約時もオプションも全て無料です。また契約期間の縛りも一切ございませんので、お気軽にご利用頂けます。</p>
               </div>
             </div>
           </div>
 
           <div>
-            <div class="bg-white shadow m-3 p-lg-5 p-4 mt-md-5">
+            <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
                 <h3 class="mx-3">ホームページ公開後も修正してもらうことは可能ですか？</h3>
@@ -528,7 +540,7 @@
           </div>
 
           <div>
-            <div class="bg-white shadow m-3 p-lg-5 p-4 mt-md-5">
+            <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
                 <h3 class="mx-3">スマートフォンやタブレットに対応していますか？</h3>

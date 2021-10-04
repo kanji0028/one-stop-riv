@@ -43,8 +43,5 @@
       <a href="/">
         <img class="" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv2.png" alt="" width="220">
       </a>
-      <?php if( !wp_is_mobile() ): ?> 
-        <button type="button" class="btn btn-main" data-bs-toggle="modal" data-bs-target="#contact">まずはお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
-      <?php endif; ?> 
     </div>
   </header>

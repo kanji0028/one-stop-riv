@@ -6,6 +6,7 @@ function add_files() {
   // JS読み込み
 	wp_enqueue_script('scroll', get_template_directory_uri().'/scripts/scrollreveal.js', array(),'1.0',true);
 	wp_enqueue_script('infiniteslide', get_template_directory_uri().'/scripts/infiniteslide.js', array(),'1.0',true);
+	wp_enqueue_script('scroll-btn', get_template_directory_uri().'/scripts/scroll-btn.js', array(),'1.0',true);
 
   // CSS読み込み
   wp_enqueue_style( 'style', get_template_directory_uri(). '/styles/style.css', array(),  '1.0.0'); 
