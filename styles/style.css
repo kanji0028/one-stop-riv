@@ -69,7 +69,11 @@ main,footer {
   text-align: left;
   text-shadow: 3px 3px 4px #fff;
   margin-bottom: 8px;
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
+  font-weight: 600;
+}
+.top-title p:nth-child(2) {
+  margin-bottom: 12px;
 }
 .top-btn {
   text-align: center;
@@ -161,17 +165,13 @@ main,footer {
 }
 }
 @media (max-width: 767px) {
-
-  .txt-md {
-    font-size: 1.6rem !important;
-  }
   .col-lg-5 > p:first-child {
     line-height: 40px;
   }
 }
 @media (max-width: 959px) {
   #top #main-img {
-    width: 65%;
+    width: 68%;
   }
   .pc-desc {
     display: none;

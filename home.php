@@ -5,11 +5,10 @@
       <div class="top-inner">
         <div class="top-wrap">
           <h1 class="top-title">
-            <p class="txt-sm">制作費・初期費用 <span class="m-color price">0<span class="fs-3">円</span></span></p>
-            <p class="txt-sm">
+            <p>初期費用・制作費 <span class="m-color price">0<span class="fs-3">円</span></span></p>
             <p>月々 <span class="m-color price">4,980<span class="fs-3">円</span></span>で作れる</p>
             <p>
-              <span class="txt-md">効果の出るホームページ制作</span>
+              <span class="txt-md"><span class="dot">効果の出る</span>ホームページ制作</span>
             </p>
           </h1>
           <div class="top-btn">
