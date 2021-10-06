@@ -25,11 +25,11 @@ main,footer {
   left: 0;
   content: '';
   display: block;
-  height: 85px;
+  height: 88px;
   width: 220px;
   background-image: url(../images/top-left.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   z-index: -1;
 }
 @media (min-width:600px) {
