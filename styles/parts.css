@@ -1,6 +1,7 @@
 /* 共通 */
 body {
-  font-family: 'Kiwi Maru', serif;
+  /* font-family: 'Kiwi Maru', serif; */
+  font-family: "Noto Sans JP", "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .br:before {
