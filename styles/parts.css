@@ -68,11 +68,11 @@ button:hover {
   display: block;
   text-align: center;
 }
-@media screen and (max-width: 599px) {
+/* @media screen and (max-width: 599px) {
   section .btn-main {
     width: 90%;
   } 
-}
+} */
 @media screen and (min-width: 600px) {
   section .btn-main {
     width: 450px;
@@ -80,9 +80,17 @@ button:hover {
   } 
   #top .btn-main {
     max-width: 350px;
+ 
   }
   .top-btn {
     text-align: left;
+  }
+
+}
+@media  (min-width:960px) {
+  .btn-main {
+    padding: 16px 30px;
+    font-size: 22px;
   }
 }
 
