@@ -36,7 +36,7 @@ p {
 a {
 	text-decoration:none;
 }
-a:hover,button:hover {
+button:hover {
   opacity: 0.7;
   transition: 0.3s ease-in-out;
   color: #fff!important;
@@ -64,7 +64,10 @@ a:hover,button:hover {
   cursor: pointer;
   max-width: 300px;
 }
-
+.contact-link {
+  display: block;
+  text-align: center;
+}
 @media screen and (max-width: 599px) {
   section .btn-main {
     width: 90%;

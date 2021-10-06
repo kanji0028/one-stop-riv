@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <main>
     <!-- ファーストビュー -->
-    <section id="top" class="p-md-4 p-3 pb-5">
+    <section id="top" class="p-md-4 p-3">
       <div class="top-inner">
         <div class="top-wrap">
           <h1 class="top-title">
@@ -13,15 +13,22 @@
             </p>
           </h1>
           <div class="top-btn">
-            <button type="button" class="btn btn-main my-4 mx-auto view-pc" data-bs-toggle="modal" data-bs-target="#contact">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+          <a class="contact-link-pc" href="/contact">
+            <button type="button" class="btn btn-main my-4 mx-auto view-pc">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+          </a>
           </div>
         </div>
         <div class="top-img">
-            <img id="main-img" class="img-fluid mt-lg-5 mt-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
+            <img id="main-img" class="img-fluid mt-lg-5  vert-move" src="<?php echo get_template_directory_uri(); ?>/images/top.png" alt="">
         </div>
         <div class="top-btn">
-            <button type="button" class="btn btn-main my-4 mx-auto view-sp" data-bs-toggle="modal" data-bs-target="#contact">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
-          </div>
+          <a class="contact-link" href="/contact">
+          <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+          </a>
+        </div>
+      </div>
+      <div class="scrolldown"> 
+        <span>Scroll</span>
       </div>
       <div class="pc-desc">
           <p class="fs-5 mb-3">One Stop Riv.は月額制(サブスクリプション型)の
@@ -70,9 +77,6 @@
 
     <!-- 料金プラン -->
     <section id="price" class="p-lg-5 p-3">
-      <?php if( !wp_is_mobile() ): ?> 
-        <img class="" src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="">
-      <?php endif; ?> 
       <div class="text-center py-5 position-relative">
         <p class="sub-title">\安心の料金プラン/</p>
         <h2>利用料は月額の4,980円のみ</h2>
@@ -202,7 +206,9 @@
           </div>
         </div>
       </div>
-      <button type="button" class="btn btn-main d-block mx-auto my-5 py-3" data-bs-toggle="modal" data-bs-target="#contact">まずはお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+      <a class="contact-link" href="/contact">
+        <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+      </a>
     </section>
 
     <!-- こんな業種で -->
@@ -267,7 +273,9 @@
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-4.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-5.jpg" alt=""></div>
         </div>
-        <button type="button" class="btn btn-main d-block mx-auto my-5 py-3" data-bs-toggle="modal" data-bs-target="#contact">まずはお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+        <a class="contact-link" href="/contact">
+          <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+        </a>
       </div>
     </section>
 
@@ -387,7 +395,9 @@
               </div>
               <div class="">
                 <p>まずはお気軽にお問い合わせください。<span class="br">原則営業日1日以内にご連絡いたします。</p>
-                <button type="button" class="btn btn-main d-block mx-auto mt-4 w-75" data-bs-toggle="modal" data-bs-target="#contact">お問い合わせ<i class="fas fa-chevron-right ms-2"></i></button>
+                <a class="contact-link" href="/contact">
+                  <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+                </a>
               </div>
             </div>
           </div>
@@ -555,4 +565,46 @@
         </div>
     </section>
   </main>
+  <!-- /main -->
+  <footer>
+    <div class="cta">
+
+      <div class="bg-main p-sm-5">
+      </div>  
+
+      <div class="row justify-content-end">
+        <div class="col-lg-5 position-relative  cta-image text-center">
+          <img class="img-fluid my-md-3 rounded-1 shadow" src="<?php echo get_template_directory_uri(); ?>/images/cta.jpg" alt="">
+        </div>
+        <div class="col-lg-7 py-2 text-center">
+          <p class="my-4">ぜひ無料でご相談ください。</p>
+          <a class="contact-link" href="/contact">
+            <button type="button" class="btn btn-main mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+          </a>
+          <p class="my-md-5 my-4"><i class="fa fa-phone mx-2"></i><a href="tel:050-3159-9527" class="tel">050-3159-9527</a><span class="ms-2 small">(受付時間9:00〜18:00)</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-main p-md-4 pt-4 p-2">
+      <a href="/">
+        <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/images/onestopriv2.png" alt="">
+      </a>
+      <div class="footer-desc">
+        <p class="f-description mt-3 mb-4">制作費・初期費用 0 円<span class="br">月々4,980円で作れる<br>効果の出るホームページ制作</p>
+        <div class="information lh-lg">
+          <p>運営会社：RivRound株式会社<span class="br">福岡県福岡市博多区 3-27-25 第二岡部ビル 9F</p>
+          <div>
+            <p><i class="fas fa-phone me-1"></i>050-3159-9527</p>
+            <p><i class="fas fa-envelope me-1"></i>info@riv-round.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-m-color p-3 copyright">
+      <p class="text-white text-center small">＠RIVROUND.INC</p>
+    </div>
+  </footer>
+  <!-- /footer -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/infiniteslide.js"></script>
 <?php get_footer(); ?>

@@ -24,6 +24,11 @@
       <p>個人情報の正確性及び安全性確保のために、セキュリティに万全の対策を講じています。</p>
       <p>個人情報の開示・訂正・追加・削除・利用停止をご希望の場合には、ご本人であることを確認したうえで、速やかに対応致します。 なお、個人情報に関するお問い合わせはでお受けいたします。</p>
     </div>
+    <div class="top-btn">
+    <a href="/contact">
+      <button type="button" class="btn btn-main my-4 mx-auto view-sp">お問い合わせページに戻る<i class="fas fa-chevron-right ms-3"></i></button>
+    </a>
+  </div>
   </section>
 
 <?php get_footer(); ?>

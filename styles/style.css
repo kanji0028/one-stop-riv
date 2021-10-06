@@ -25,7 +25,7 @@ main,footer {
   left: 0;
   content: '';
   display: block;
-  height: 100px;
+  height: 85px;
   width: 220px;
   background-image: url(../images/top-left.png);
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@ main,footer {
   background-size: cover;
 }
 .top-inner {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .top-title {
   display: inline-block;
@@ -75,6 +75,7 @@ main,footer {
   text-align: center;
 }
 .top-img {
+  margin-top: 20px;
   text-align: center;
 }
 .price {
@@ -105,7 +106,7 @@ main,footer {
     margin-top: 0 !important;
   }
   .top-inner .view-sp {
-    display: none;
+    display: none !important;
   }
 }
 @media (min-width:960px) {
@@ -148,6 +149,9 @@ main,footer {
   }
 }
 @media (max-width:599px) {
+  #top {
+    padding-bottom: 3rem !important;
+  }
   .top-inner .view-pc {
   display: none;
 }
@@ -173,8 +177,6 @@ main,footer {
     display: none;
   }
   }
-
-
 
 /* template */
 .slide-wrap {
@@ -475,7 +477,7 @@ th,td {
   z-index: 1;
 }
 #flow .btn-main {
-  font-size: 16px;
+  font-size: 14px;
 }
 .flow-content:after{
   content: '';
@@ -541,39 +543,32 @@ th,td {
 /* footer */
 
 .cta-image > img {
-  width: 90%;
+  width: 70%;
+}
+.cta .tel {
+  color: #333;
+  font-size: 18px;
+}
+.cta .col-lg-5{
+  background-color:rgba(255,255,255,0.8);
 }
 @media screen and (min-width: 768px) {
   .cta > div > div > * {
     font-size: 1.3em;
   }
+  .cta .tel {
+    font-size: 26px;
+  }
+  .cta-image > img {
+    width: 60%;
+  }
 }
-
 @media screen and (min-width: 992px) {
   .cta-image > img{
     position: absolute;
     top: -20%;
     left: 15%;
   }
-}
-.cta a {
-  /* padding: 20px; */
-  background: none;
-  border:1px solid #000;
-  color: initial;
-}
-.cta a:hover {
-  background: #000;
-  color: #fff;
-  transition: 0.3s ease-in-out;
-}
-
-
-.cta .col-lg-5{
-  background-color:rgba(255,255,255,0.8);
-}
-
-@media screen and (min-width: 992px){
   .cta .col-lg-7 {
     background: url(../images/cta.jpg);
     background-size: cover;
@@ -594,7 +589,6 @@ th,td {
     width: 220px;
   }
 }
-
 .f-description {
   color: initial;
   font-weight: 400;
@@ -649,4 +643,149 @@ th,td {
 #thanks > div >a:hover {
   color: #fff;
   background: #000;
+}
+/*スクロールダウン*/
+.scrolldown{
+  position:absolute;
+  bottom:-18px;
+  right: 5%;
+}
+
+.scrolldown span{
+  position: absolute;
+  right:-7px;
+  bottom: 41px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-align: center;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  text-shadow: 1px 1px 1px rgb(214, 214, 214);
+}
+.scrolldown:before {
+  content: "";
+  position: absolute;
+  bottom:0px;
+  right:-2px;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  background:#fff;
+  box-shadow: 1px 1px 1px rgb(214, 214, 214);
+  z-index: 100;
+  animation:
+    circlemove 1.6s ease-in-out infinite,
+    cirlemovehide 1.6s ease-out infinite;
+}
+
+@keyframes circlemove{
+  0%{bottom:32px;}
+  100%{bottom:-5px;}
+}
+
+@keyframes cirlemovehide{
+  0%{opacity:0}
+  50%{opacity:1;}
+  80%{opacity:0.9;}
+  100%{opacity:0;}
+}
+
+.scrolldown:after{
+  content:"";
+  position: absolute;
+  bottom:0;
+  right:3px;
+  width:1px;
+  height: 35px;
+  background:#fff;
+  box-shadow: 1px 1px 1px rgb(214, 214, 214);
+}
+/* contact お問い合わせページ CSS */
+#contact {
+  text-align: center;
+  padding: 70px 50px 50px 50px;
+}
+@media (min-width:600px) {
+  #contact {
+    padding: 70px 50px 50px 50px;
+  }
+}
+.wpcf7 {
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+}
+.wpcf7-text, .wpcf7-textarea {
+  margin-top: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 5px;
+}
+
+.wpcf7 .must {
+  color: #fff;
+  margin-right: 3px;
+  padding: 3px 8px;
+  background: #fb4b13;
+  border-radius: 20px;
+  font-size: .8em;
+}
+
+.wpcf7 .free {
+  color: #fff;
+  margin-right: 3px;
+  padding: 3px 8px;
+  background: rgba(39, 0, 252, 0.7);
+  border-radius: 20px;
+  font-size: .8em;
+}
+
+.wpcf7 label {
+  margin-bottom: 20px;
+}
+
+.wpcf7-submit {
+  width: 90%;
+  padding: 10px;
+  background: #EDF3FF;
+  margin:5px 0;
+}
+.wpcf7-submit:hover {
+  background: #000;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+.wpcf7-form > div {
+  position: relative;
+}
+
+.wpcf7-form > div > .privacy {
+  font-size: 0.8em;
+}
+@media screen and (max-width: 767px) {
+  .wpcf7-form > div > .privacy {
+    left: 22%;
+  }
+  .wpcf7-form-control-wrap {
+    max-width: 60%;
+  }
+  .wpcf7-text, .wpcf7-textarea {
+    margin-top: 10px;
+    width:100%;
+  }
+}
+
+.wpcf7-form > div > .privacy > a {
+  text-decoration: underline;
+}
+.wpcf7-form > div > .privacy > a:hover {
+  color: #000!important;
+}
+.modal-body {
+  padding: .5rem 2rem!important;
+}
+::placeholder {
+  color: #ababab;
 }
