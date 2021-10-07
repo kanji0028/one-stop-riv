@@ -29,7 +29,7 @@ main,footer {
   width: 220px;
   background-image: url(../images/top-left.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   z-index: -1;
 }
 @media (min-width:600px) {
@@ -41,7 +41,7 @@ main,footer {
 @media (min-width:960px) {
   #header::before {
     height: 200px;
-    width: 400px;
+    width: 350px;
   }
 }
 .sp-navbtn.hide {
@@ -96,6 +96,7 @@ main,footer {
   .top-inner {
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
   }
   .top-wrap {
     width: 55%;
@@ -115,7 +116,6 @@ main,footer {
 }
 @media (min-width:960px) {
   .top-inner {
-    margin-top: 100px;
     padding: 0 80px 30px 80px;
   }
   .top-title p {
@@ -427,88 +427,22 @@ th,td {
 
 /* flow */ 
 /* flowが画像の場合 */
-/* .flow-img img {
+.flow-img img {
   object-fit: cover;
   height: 100%;
   width: 100%;
-} */
+}
+@media (min-width:600px) {
+  .flow-img .view-sp {
+    display: none;
+  }
+}
+@media (max-width:599px) {
+  .flow-img .view-pc {
+    display: none;
+  }
+}
 /* flowが画像の場合 */
-
-.step h3::before {
-    content: '';/*何も入れない*/
-    display: inline-block;/*忘れずに！*/
-    background-repeat: no-repeat; 
-    background-size: contain;
-    vertical-align: middle;
-    /* width: 130px;
-    height: 100px;    */
-}
-
-.step > div > .shadow-sm {
-  border: 1px solid #707070;
-}
-
-.step > div > .arrow {
-  border-radius: 60px;
-  z-index: 1;
-}
-.step button {
-  width: 95%!important;
-}
-
-.step .border-end {
-  border-right: 1px solid #707070!important;
-}
-
-.step .arrow:after{
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  right: -7px;
-  bottom:  40%;
-  border-right: 20px solid #707070;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  transform: rotate(177deg);
-}
-#flow .col-md-2 {
-  z-index: 1;
-}
-#flow .btn-main {
-  font-size: 14px;
-}
-.flow-content:after{
-  content: '';
-  position: absolute;
-  display: block;
-  margin: 0 1rem;
-  transform: translateX(-50%);
-  height: 100%;
-  width: 1px;
-  z-index: 0;
-  top: 0%;
-  left: 12%;
-  background-color: #707070;
-}
-@media screen and (max-width: 767px) {
-  .flow-content:after{
-    left: 6%;
-  }
-}
-
-@media screen and (min-width: 992px){
-  .step .arrow {
-    font-size: 2em;
-  }
-  .step .arrow .count {
-    font-size: 1.3em;
-  }
-  .step-content > div > div > div:first-child {
-    border-right: 1px solid #707070;
-  }
-}
 
 /* qa */
 #qa {

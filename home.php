@@ -377,99 +377,15 @@
         <p class="sub-title">\かんたんステップ/</p>
         <h2>サイト制作の流れ</h2>
       </div>
-
-      <div style="max-width: 1100px; margin: 0 auto" class="flow-content position-relative">
-        
-      <div class="row my-5 step step1 align-items-center justify-content-evenly">
-        <div class="col-md-2 col-3 position-relative">
-          <div class="m-color bg-white p-2 text-center shadow-sm arrow">STEP<span class="count ms-1 br-sp">1</span> 
-          </div>
-        </div>
-        <div class="col-md-8 col-9 step-content scroll-top">
-          <div class="bg-white p-md-4 p-3 shadow-sm text-center">
-            <div class="row row-cols-md-2 align-items-center">
-              <div class="d-lg-flex align-items-center justify-content-evenly">
-              <img width="120" class="mx-4" src="<?php echo get_template_directory_uri(); ?>/images/icon/1.png" alt="">
-                <h3 class="fs-5 my-3 text-muted">お問い合わせ</h3>
-              </div>
-              <div class="">
-                <p>まずはお気軽にお問い合わせください。<span class="br">原則営業日1日以内にご連絡いたします。</p>
-                <a class="contact-link" href="/contact">
-                  <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row my-5 step step2 align-items-center justify-content-evenly">
-        <div class="col-md-2 col-3 position-relative">
-          <div class="m-color bg-white p-2 text-center shadow-sm arrow">STEP<span class="count ms-1 br-sp">2</span> 
-          </div>
-        </div>
-        <div class="col-md-8 col-9 step-content scroll-top">
-          <div class="bg-white p-md-4 p-3 shadow-sm text-center">
-            <div class="row row-cols-md-2 align-items-center">
-              <div class="d-lg-flex align-items-center justify-content-evenly">
-              <img width="120" class="mx-4" src="<?php echo get_template_directory_uri(); ?>/images/icon/2.png" alt="">
-                <h3 class="fs-5 my-3 text-muted">テンプレートの選択</h3>
-              </div>
-              <div class="">
-                <p>ホームページの型となるテンプレートの中からお好きな1つをお選び頂きます。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      <div class="row my-5 step step3 align-items-center justify-content-evenly">
-        <div class="col-md-2 col-3 position-relative">
-          <div class="m-color bg-white p-2 text-center shadow-sm arrow">STEP<span class="count ms-1 br-sp">3</span> 
-          </div>
-        </div>
-        <div class="col-md-8 col-9 step-content scroll-top">
-          <div class="bg-white p-md-4 p-3 shadow-sm text-center">
-            <div class="row row-cols-md-2 align-items-center">
-              <div class="d-lg-flex align-items-center justify-content-evenly">
-              <img width="100" class="mx-4" src="<?php echo get_template_directory_uri(); ?>/images/icon/3.png" alt="">
-                <h3 class="fs-5 my-3 text-muted">ヒアリングシートの記入</h3>
-              </div>
-              <div class="">
-                <p>ホームページの基となる写真や情報を、専用のヒアリングシートにご記入頂きます。</p>
-                <p class="small mt-3">(Web上でご記入頂けますので、最短30分ほどで完了します。)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-        <div class="row step step4 align-items-center justify-content-evenly">
-          <div class="col-md-2 col-3 position-relative">
-            <div class="m-color bg-white p-2 text-center shadow-sm arrow">STEP<span class="count ms-1 br-sp">4</span> 
-            </div>
-          </div>
-          <div class="col-md-8 col-9 step-content">
-            <div class="bg-white p-md-4 p-3 shadow-sm text-center">
-             <div class="row row-cols-md-2 align-items-center">
-                <div class="d-lg-flex align-items-center justify-content-evenly">
-                <img width="100" class="mx-4" src="<?php echo get_template_directory_uri(); ?>/images/icon/4.png" alt="">
-                  <h3 class="fs-5 my-3 text-muted d-inline-block keiko">サイト公開！</h3>
-                </div>
-                <div class="">
-                  <p>頂いた情報をもとにホームページを制作します。解析ツール・SEO対策などをしっかり作り込んだ後、ホームページを公開します。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- flow画像の場合 -->
+      <div class="flow-img">
+        <img class="view-sp" src="<?php echo get_template_directory_uri(); ?>/images/flow-LP.png" alt="">
+        <img class="view-pc" src="<?php echo get_template_directory_uri(); ?>/images/flow-LP-pc.png" alt="">
       </div>
       <!-- flow画像の場合 -->
-        <!-- <div class="flow-img">
-          <img s src="<?php echo get_template_directory_uri(); ?>/images/flow-LP.png" alt="">
-        </div> -->
-      <!-- flow画像の場合 -->
-
+      <a class="contact-link" href="/contact">
+        <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
+      </a>
     </section>
 
     <!-- Q&A -->
