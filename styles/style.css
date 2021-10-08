@@ -98,6 +98,12 @@ main,footer {
     justify-content: space-between;
     margin-top: 100px;
   }
+  .top-title p {
+    margin-bottom: 20px;
+  }
+  .top-title p:nth-child(2) {
+    margin-bottom: 24px;
+  }
   .top-wrap {
     width: 55%;
   }
@@ -115,11 +121,18 @@ main,footer {
   }
 }
 @media (min-width:960px) {
+  #top {
+    padding-bottom: 2.7rem !important;
+  }
   .top-inner {
     padding: 0 80px 30px 80px;
   }
   .top-title p {
+    margin-bottom: 30px;
     font-size: 1.8rem !important;
+  }
+  .top-title p:nth-child(2) {
+    margin-bottom: 34px;
   }
   #main-img {
     width: 70%;
