@@ -341,18 +341,24 @@ main,footer {
   margin: 0 0 0 auto;
   width: 85%;
 }
+.small {
+  font-size: 12px;
+  display: inline-block;
+  padding-left: 10px;
+}
+@media (min-width:600px) {
+  .small {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+}
 @media screen and (max-width: 767px) {
   #industry .title {
-    width: 75%;
+    width: 70%;
   }
   #industry .slide-wrap {
     margin: 0 0 0 auto;
     width: 95%;
-  }
-  .other span {
-    font-size: 12px;
-    display: inline-block;
-    padding-left: 10px;
   }
 }
 

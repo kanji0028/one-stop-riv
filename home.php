@@ -84,7 +84,7 @@
       <div class="row row-cols-lg-2">
         <img class="img-fluid my-3 fadeIn" src="<?php echo get_template_directory_uri(); ?>/images/price4980.png" alt="">
         <div class="my-3 p-md-5">
-          <p class="mb-4">One Stop Rivは、月額定額制(サブスクリプション型)のホームページ制作サービスです。月額制なので製作費は0円、月額4,980円(+税)でご利用頂けます。</p>
+          <p class="mb-4">One Stop Rivは、月額定額制(サブスクリプション型)のホームページ制作サービスです。月額制なので製作費は0円、月額4,980円(+税)だけでご利用頂けます。</p>
           <p>※ご契約期間の縛り、早期解約の違約金は一切ないので、必要性を感じなくなればいつでもご解約頂けます。</p>
         </div>
       </div>
@@ -97,7 +97,7 @@
           <p class="position-absolute fs-5 lh-sm">初期費用<span class="br fs-1">0</span>円</span></p>  
         </div>
         <div class="rounded-circle position-relative shadow vert-move-1">
-          <p class="position-absolute fs-5 lh-sm text-white">更新費<span class="br fs-1">0</span>円</span></p>  
+          <p class="position-absolute fs-5 lh-sm text-white">修正費<span class="br fs-1">0</span>円</span></p>  
         </div>
         <div class="rounded-circle position-relative shadow bg-main vert-move-2">
           <p class="position-absolute fs-5 lh-sm">契約縛り<span class="br fs-2">なし</span></p>  
@@ -200,7 +200,7 @@
             </div>
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/feature/feature-10.png" alt="">
             <h3>あると助かる機能も全て無料</h3>
-            <p class="px-md-4">SSL化対応・SNS連携・wordpress化・<br class="view-sp">お問い合わせフォームも無料
+            <p class="px-md-4">SSL化対応・SNS連携・予約リンクアニメーション・お問い合わせフォームも無料
             </p>
           </div>
         </div>
@@ -218,7 +218,7 @@
       </div>
       <div class="beauty industry-item pb-3">
         <h3 class="fadeIn">Beauty</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>美容室・エステサロン</p></div>
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>サロン</p></div>
         
         <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt=""></div>
@@ -242,7 +242,7 @@
       </div>
       <div class="dental industry-item pb-3">
         <h3 class="fadeIn">Clinic</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>医院・歯科医院</p></div>
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>クリニック</p></div>
         <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-2.jpg" alt=""></div>
@@ -263,8 +263,8 @@
         </div>
       </div>
       <div class="other industry-item pb-3">
-        <h3 class="fadeIn">Other</h3>
-        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>中小企業<span>建設・通信・運送etc..</span></p></div>
+        <h3 class="fadeIn">Company</h3>
+        <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>中小企業<span class="small">様々な業種にご対応</span></p></div>
         <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-1.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt=""></div>
@@ -309,7 +309,7 @@
           </thead>
           <tbody>
             <tr class="bg-light">
-              <th scope="row" class="bg-light">制作費用</th>
+              <th scope="row" class="bg-light">初期・制作費用</th>
               <td class="riv">0<span class="small">円</td>
               <td>50〜200<span class="small">万円</td>
               <td>5〜30<span class="small">万円</td>
@@ -323,8 +323,8 @@
               <td>10,000<span class="small">円〜</td>
             </tr>
             <tr class="bg-light">
-              <th scope="row" class="bg-light">更新作業</th>
-              <td class="riv" >更新無料<span class="br small">※1回/月</td>
+              <th scope="row" class="bg-light">修正・更新作業</th>
+              <td class="riv" >全て無料<span class="br small">※1回/月</td>
               <td>更新別途費用</td>
               <td>更新別途費用</td>
               <td>更新無料</td>
@@ -345,10 +345,10 @@
             </tr>
             <tr class="bg-light">
               <th scope="row" class="bg-light">画像素材提供</th>
-              <td class="riv">◎<span class="br small">提供無料</td>
-              <td>◎<span class="br small">提供無料</td>
-              <td>△<span class="br small">別途費用</td>
-              <td>○<span class="br small">別途費用の場合も有</td>
+              <td class="riv">◎<br><span class="br small">提供無料</td>
+              <td>◎<br><span class="br small">提供無料</td>
+              <td>△<br><span class="br small">別途費用</td>
+              <td>○<br><span class="br small">別途費用の場合も有</td>
             </tr>
             <tr class="bg-light">
               <th scope="row" class="bg-light">納期</th>
@@ -367,7 +367,7 @@
           </tbody>
         </table>
       </div>
-      <p class="text-end text-muted small pb-5 pe-md-5">※当社調べ</p>
+      <p class="text-end text-muted small pb-5 pe-md-5">※税抜き表示・当社調べ</p>
 
     </section>
 
@@ -400,7 +400,7 @@
             <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
-                <h3 class="mx-3">ホームページに関する知識が全くないのですが・・</h3>
+                <h3 class="mx-3">ホームページに関する知識が全くないのですが...</h3>
               </div>
 
               <div class="d-flex mt-4">
@@ -414,12 +414,12 @@
             <div class="bg-white shadow m-3 p-lg-5 p-4 ">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
-                <h3 class="mx-3">準備するものはありますか？</h3>
+                <h3 class="mx-3">ホームページの作成は準備が面倒くさそう...</h3>
               </div>
 
               <div class="d-flex mt-4">
                 <p class="fs-1 fw-bold answer">A</p>
-                <p class="mx-3">写真や原稿などの素材をご準備頂きます。<span class="br">Web上での設定などお客様側でして頂く事は特にございません。</p>
+                <p class="mx-3">ヒアリングシートと数点の画像素材(なくても可)のご提出のみで作成出来ます。<span class="br">Web上での設定などお客様側でして頂く事はございません。</p>
               </div>
             </div>
           </div>
@@ -427,12 +427,12 @@
             <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
-                <h3 class="mx-3">月額4,980円のほかにかかる費用はありますか？</h3>
+                <h3 class="mx-3">月額4,980円(税抜)のほかにかかる費用はありますか？</h3>
               </div>
 
               <div class="d-flex mt-4">
                 <p class="fs-1 fw-bold answer">A</p>
-                <p class="mx-3">ございません。<span class="br">作成時も解約時もオプションも全て無料です。また契約期間の縛りも一切ございませんので、お気軽にご利用頂けます。</p>
+                <p class="mx-3">一切ございません。<span class="br">作成時も解約時もオプションも全て無料です。また契約期間の縛りも一切ございませんので、お気軽にご利用頂けます。</p>
               </div>
             </div>
           </div>
@@ -441,12 +441,12 @@
             <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
-                <h3 class="mx-3">ホームページ公開後も修正してもらうことは可能ですか？</h3>
+                <h3 class="mx-3">ホームページ公開後も無料で修正してもらうことは可能ですか？</h3>
               </div>
 
               <div class="d-flex mt-4">
                 <p class="fs-1 fw-bold answer">A</p>
-                <p class="mx-3">毎月1回まで修正が可能です。<span class="br">テキストや画像の差し替えなど、修正が必要なタイミングで当社にお申し付けください。</p>
+                <p class="mx-3">毎月1回まで修正が無料で可能です。<span class="br">テキストや画像の差し替えなど、修正が必要なタイミングで当社にお申し付けください。</p>
               </div>
             </div>
           </div>
@@ -468,12 +468,12 @@
             <div class="bg-white shadow m-3 p-lg-5 p-4">
               <div class="d-flex align-items-center">
                 <p class="fs-1 fw-bold m-color">Q</p>
-                <h3 class="mx-3">スマートフォンやタブレットに対応していますか？</h3>
+                <h3 class="mx-3">他社ではサーバーと、ドメイン料金は別でかかると言われたのですが...</h3>
               </div>
 
               <div class="d-flex mt-4">
                 <p class="fs-1 fw-bold answer">A</p>
-                <p class="mx-3">はい、対応しております。<span class="br">どの端末にも対応したデザインになっております。</p>
+                <p class="mx-3">OneStopRivではサーバー・ドメイン料金も全て4,980円に含まれておりますので、ご安心下さい。</p>
               </div>
             </div>
           </div>
@@ -483,10 +483,8 @@
   <!-- /main -->
   <footer>
     <div class="cta">
-
       <div class="bg-main p-sm-5">
       </div>  
-
       <div class="row justify-content-end">
         <div class="col-lg-5 position-relative  cta-image text-center">
           <img class="img-fluid my-md-3 rounded-1 shadow" src="<?php echo get_template_directory_uri(); ?>/images/cta.jpg" alt="">
@@ -514,9 +512,9 @@
           </div>
         </div>
       </div>
+      <div class="p-3 copyright">
+      <p class="text-center small">＠RIVROUND.INC</p>
     </div>
-    <div class="bg-m-color p-3 copyright">
-      <p class="text-white text-center small">＠RIVROUND.INC</p>
     </div>
   </footer>
   <!-- /footer -->

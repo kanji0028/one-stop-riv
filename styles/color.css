@@ -31,7 +31,7 @@
   color: rgba(156, 20, 68, 0.062);
 }
 .beauty > .title {
-  border-left: 10px solid rgba(156, 20, 68, 0.747);
+  border-left: 6px solid rgba(156, 20, 68, 0.747);
 }
 .food {
   background: linear-gradient(90deg,rgba(244, 140, 12, 0.055) 0%,#fc710034 100%);
@@ -41,13 +41,13 @@
 }
 
 .food > .title {
-  border-left: 10px solid rgba(244, 140, 12, 0.767);
+  border-left: 6px solid rgba(244, 140, 12, 0.767);
 }
 .dental {
   background: linear-gradient(90deg,rgba(210, 253, 253, 0.082) 0%,rgba(210, 253, 253, 0.425) 100%);
 }
 .dental > .title {
-  border-left: 10px solid rgba(42, 205, 234, 0.623);
+  border-left: 6px solid rgba(42, 205, 234, 0.623);
 }
 .dental > h3 {
   color: rgba(210, 253, 253, 0.8);
@@ -60,7 +60,7 @@
   color: rgba(111, 163, 241, 0.164);
 }
 .professional > .title {
-  border-left: 10px solid rgba(111, 163, 241, 0.233)
+  border-left: 6px solid rgba(111, 163, 241, 0.233)
 }
 .other {
   background: linear-gradient(90deg,rgba(217, 248, 214, 0.055) 0%,rgba(217, 248, 214, 0.37) 100%);
@@ -69,7 +69,7 @@
   color: rgba(217, 248, 214, 0.8);
 }
 .other > .title {
-  border-left: 10px solid rgba(36, 156, 20, 0.521);
+  border-left: 6px solid rgba(36, 156, 20, 0.521);
 }
 
 
