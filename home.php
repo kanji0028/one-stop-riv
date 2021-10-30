@@ -485,16 +485,16 @@
     <div class="cta">
       <div class="bg-main p-sm-5">
       </div>  
-      <div class="row justify-content-end">
+      <div class="row">
         <div class="col-lg-5 position-relative  cta-image text-center">
           <img class="img-fluid my-md-3 rounded-1 shadow" src="<?php echo get_template_directory_uri(); ?>/images/cta.jpg" alt="">
         </div>
-        <div class="col-lg-7 py-2 text-center">
+        <div class="col-lg-7 py-2 text-center cta-contact">
           <p class="my-4">ぜひ無料でご相談ください。</p>
           <a class="contact-link" href="/contact">
             <button type="button" class="btn btn-main mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
           </a>
-          <p class="my-md-5 my-4"><i class="fa fa-phone mx-2"></i><a href="tel:050-3159-9527" class="tel">050-3159-9527</a><span class="ms-2 small">(受付時間9:00〜18:00)</span></p>
+          <p class="my-md-5 my-4"><i class="fa fa-phone mx-2"></i><a href="tel:050-3159-9527" class="tel">050-3159-9527</a><span class="ms-2 small open">(受付時間:平日 9:00〜18:00)</span></p>
         </div>
       </div>
     </div>

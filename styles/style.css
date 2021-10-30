@@ -504,6 +504,9 @@ th,td {
 .cta .col-lg-5{
   background-color:rgba(255,255,255,0.8);
 }
+.cta .open {
+  display: block;
+}
 @media screen and (min-width: 768px) {
   .cta > div > div > * {
     font-size: 1.3em;
@@ -512,20 +515,26 @@ th,td {
     font-size: 26px;
   }
   .cta-image > img {
-    width: 60%;
+    width: 70%;
   }
-}
-@media screen and (min-width: 992px) {
-  .cta-image > img{
-    position: absolute;
-    top: -20%;
-    left: 15%;
+  .cta-contact {
+    width: 50%;
+  }
+  .cta-image {
+    width: 50%;
   }
   .cta .col-lg-7 {
     background: url(../images/cta.jpg);
     background-size: cover;
     background-color:rgba(255,255,255,0.8);
     background-blend-mode:lighten;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cta-image > img{
+    position: absolute;
+    top: -10%;
+    left: 25%;
   }
 }
 @media screen and (max-width: 375px) {
@@ -565,6 +574,7 @@ th,td {
 }
 .copyright {
   height: 50px;
+  text-align: center;
 }
 
 /* プライバシーポリシー */
