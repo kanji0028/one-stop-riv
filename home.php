@@ -54,13 +54,13 @@
 
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-4.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt="">
-        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-2.jpg" alt="">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/gym-moc.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-1.jpg" alt="">
+        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/este-moc.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-2.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-2.jpg" alt="">
-        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-3.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-4.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-3.jpg" alt="">
         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-4.jpg" alt="">
@@ -222,8 +222,9 @@
         
         <div class="slide-wrap px-md-5 pb-3"> 
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/gym-moc.jpg" alt=""></div>
+          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/este-moc.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-2.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-3.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-4.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-5.jpg" alt=""></div>
           <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-6.jpg" alt=""></div>
