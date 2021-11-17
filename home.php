@@ -215,64 +215,174 @@
       <div class="text-center py-5">
         <p class="sub-title">\業種別に最適なテンプレートを用意/</p>
         <h2>様々な業種でお使い頂けます</h2>
+        <p class="industry-text">※画像をタップしてサンプルサイトをご覧下さい</p>
       </div>
       <div class="beauty industry-item pb-3">
         <h3 class="fadeIn">Beauty</h3>
         <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>サロン</p></div>
         
         <div class="slide-wrap px-md-5 pb-3"> 
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/gym-moc.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/este-moc.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-2.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-4.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-5.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-6.jpg" alt=""></div>
+          <div class="slide-content">
+            <a href="https://hair-salon-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://gym-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/gym-moc.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://este-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/este-moc.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://hair-salon-2.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://hair-salon-4.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://hair-salon-5.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-5.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://hair-salon-6.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/salon-6.jpg" alt="">
+            </a>
+        </div>
         </div>
       </div>
       <div class="food industry-item pb-3">
         <h3 class="fadeIn">Food</h3>
         <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>飲食店</p></div>
         <div class="slide-wrap px-md-5 pb-3"> 
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-1.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-2.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-3.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-4.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-5.jpg" alt=""></div>
+          <div class="slide-content">
+            <a href="https://restaurant-riv-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://restaurant-riv-2.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://restaurant-riv-3.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://restaurant-riv-4.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://restaurant-riv-5.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/food-5.jpg" alt="">
+            </a>
+          </div>
         </div>
       </div>
       <div class="dental industry-item pb-3">
         <h3 class="fadeIn">Clinic</h3>
         <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>クリニック</p></div>
         <div class="slide-wrap px-md-5 pb-3"> 
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-2.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-3.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-4.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-5.jpg" alt=""></div>
+          <div class="slide-content">
+            <a href="https://clinic-2.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://dental-office-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://clinic-3.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://dental-office-4.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://dental-office-5.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/dental-5.jpg" alt="">
+            </a>
+          </div>
         </div>
       </div>
       <div class="professional industry-item pb-3">
         <h3 class="fadeIn">Professional</h3>
         <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>士業</p></div>
         <div class="slide-wrap px-md-5 pb-3"> 
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-1.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-2.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-3.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-4.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-5.jpg" alt=""></div>
+          <div class="slide-content">
+            <a href="https://professional-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://professional-2.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://professional-3.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://professional-4.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://professional-5.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/pro-5.jpg" alt="">
+            </a>
+          </div>
         </div>
       </div>
       <div class="other industry-item pb-3">
         <h3 class="fadeIn">Company</h3>
         <div class="title p-md-3 p-2 mt-md-5 my-4 shadow-sm scroll-left"><p>中小企業<span class="small">様々な業種にご対応</span></p></div>
         <div class="slide-wrap px-md-5 pb-3"> 
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-1.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-3.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-4.jpg" alt=""></div>
-          <div class="slide-content"><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-5.jpg" alt=""></div>
+          <div class="slide-content">
+            <a href="https://construction-1.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://construction-2.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://construction-3.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://construction-4.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-4.jpg" alt="">
+            </a>
+          </div>
+          <div class="slide-content">
+            <a href="https://construction-5.netlify.app/" target="_blank">
+              <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/template/construction-5.jpg" alt="">
+            </a>
+          </div>
         </div>
+        <p class="industry-text">※上記以外も様々な業種に対応しております</p>
         <a class="contact-link" href="/contact">
           <button type="button" class="btn btn-main my-4 mx-auto view-sp">まずお問い合わせ<i class="fas fa-chevron-right ms-3"></i></button>
         </a>

@@ -17,7 +17,7 @@ main,footer {
   padding-top: 8px;
 }
 #head_container img {
-  width: 34%;
+  width: 33%;
 }
 #header::before {
   position: absolute;
@@ -300,7 +300,7 @@ main,footer {
   top: 0%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  padding: 12px 25px;
+  padding: 12px 23px;
   border-radius: 50%;
 }
 
@@ -308,6 +308,13 @@ main,footer {
 .industry-item {
   position: relative;
   padding-top: 40px;
+}
+.industry-text {
+  font-size: 14px;
+  text-align: center;
+}
+.industry-text:last-of-type {
+  margin-top: 35px;
 }
 /* .industry-item::before {
   position: absolute;
@@ -350,6 +357,9 @@ main,footer {
   .small {
     font-size: 14px;
     padding-left: 15px;
+  }
+  .industry-text {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 767px) {
